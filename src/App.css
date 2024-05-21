@@ -1,0 +1,71 @@
+::-webkit-scrollbar {
+  background: rgb(207,67,44);
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(68,117,76);
+}
+
+body {
+  background: url('bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+.box {
+  width: 50vw;
+  box-shadow: 0 0 1rem rgba(0,0,0,.9);
+  border-radius: 20px;
+  background: rgba(255,255,255,.1);
+  backdrop-filter: blur(50px);
+  padding: 20px 50px 200px 50px;
+  margin-bottom: 180px;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+}
+
+input {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 20px;
+  background: rgb(68,117,76);
+  box-shadow: 0 0 0 2px rgb(255,229,6), 0 0 0 4px rgb(68,117,76);
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  color: rgb(254,224,2);
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+button {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 20px;
+  padding: 20px 70px 20px 70px;
+  background: rgb(207,67,44);
+  border-radius: 10px;
+  trasition: .2s linear;
+  color: rgb(254,224,2);
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 0 2px rgb(255,229,6), 0 0 0 4px rgb(207,67,44);
+}
+
+p {
+  font-family: "Gloria Hallelujah", cursive;
+  max-width: 100%;
+  margin-top: 20px;
+}
