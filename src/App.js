@@ -56,9 +56,9 @@ bei "button" noch einen kleinen zusatz "disabled={!title}" durchschreiben */}
 {/* dadurch kriegen wir zugang zu einzelnen objekten die wir dann eintragen, durch die zweite zeile können wir
 die änderungen vornehmen an dem objekt was wir ausgesucht haben, die dritte zeile ist dann dafür da um das
 gewünschte objekt zu löschen */}
-      {myMeal.map((meal) => <MyMeals text={meal.title} key={meal._id} 
-      updatingInInput={() => updatingInInput(meal._id, meal.title)}
-      deleteMeal={() => deleteMeal(meal._id, setMeal)} />)}
+      {myMeal.map((meal) => <MyMeals text={meal.title} key={meal.id} 
+      updatingInInput={() => updatingInInput(meal.id, meal.title)}
+      deleteMeal={() => deleteMeal(meal.id, setMeal)} />)}
     </div>
   );
 }
