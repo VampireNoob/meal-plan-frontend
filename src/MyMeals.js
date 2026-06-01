@@ -8,8 +8,8 @@ export const MyMeals = ({ text, updatingInInput, deleteMeal}) => {
     return(
         <div>
             <p>{ text }</p>
-            <RiEditLine onClick={updatingInInput} />
-            <RiDeleteBin6Line onClick={deleteMeal} />
+            <RiEditLine onClick={updatingInInput} style={{cursor: 'pointer'}} />
+            <RiDeleteBin6Line onClick={deleteMeal} style={{cursor: 'pointer'}} />
         </div>
     )
 }
