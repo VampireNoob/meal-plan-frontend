@@ -6,8 +6,6 @@
 
 <img width="1805" height="888" alt="mealplan" src="https://github.com/user-attachments/assets/329240af-0ffa-4522-bc7d-70efb3e99875" />
 
-![Meal Planer](DEIN_SCREENSHOT_LINK)
-
 ## A simple web app to plan and manage your weekly meals.
 
 You can view a live demo here: https://mealplaner.netlify.app/
