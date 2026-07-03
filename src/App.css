@@ -28,6 +28,7 @@ body {
   margin-bottom: 180px;
   display: grid;
   place-items: center;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -47,6 +48,7 @@ input {
   color: rgb(254,224,2);
   margin-bottom: 50px;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 button {
@@ -55,17 +57,36 @@ button {
   padding: 20px 70px 20px 70px;
   background: rgb(207,67,44);
   border-radius: 10px;
-  trasition: .2s linear;
+  transition: .2s linear;
   color: rgb(254,224,2);
   cursor: pointer;
+  border: none;
 }
 
 button:hover {
   box-shadow: 0 0 0 2px rgb(255,229,6), 0 0 0 4px rgb(207,67,44);
 }
 
+button:disabled {
+  background: rgb(120,120,120);
+  color: rgb(200,200,200);
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
 p {
   font-family: "Gloria Hallelujah", cursive;
   max-width: 100%;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .box {
+    width: 90vw;
+    padding: 20px 25px 100px 25px;
+  }
+
+  button {
+    padding: 20px 40px;
+  }
 }
