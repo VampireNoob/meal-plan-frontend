@@ -40,6 +40,11 @@ function App() {
       placeholder="Add a Meal"
       value={ title }
       onChange={(e) => setTitle(e.target.value)}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" && title) {
+          editing ? editMeal(mealId, title, setTitle, setMeal, setEditing) : addMeal(title, setTitle, setMeal)
+        }
+      }}
       />
 
 {/* hier verbinden die logik aus "Fetchmeals" mit dem knopf damit es die information hinzufügt und abspeichert,

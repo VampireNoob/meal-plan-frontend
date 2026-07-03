@@ -2,8 +2,8 @@
 import { createClient } from '@supabase/supabase-js';
 
 // Verbindung zu Supabase herstellen - ersetzt die MongoDB Verbindung
-const supabaseUrl = 'https://mviqhhnsrbuqjwmaofls.supabase.co';
-const supabaseKey = 'sb_publishable_uNB60ptYpA1cu_697_hXnA_iyzfxzB2';
+const supabaseUrl = process.env.REACT_APP_SUPABASE_URL;
+const supabaseKey = process.env.REACT_APP_SUPABASE_KEY;
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
