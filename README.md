@@ -29,7 +29,7 @@ const getAllMeals = async (setMeals) => {
 * <img src="https://github.com/VampireNoob/Wedding-Wish-List/assets/128150500/c43e4d15-62e4-4254-a673-c4021fd4cf25" width="30"> React
 * <img src="https://github.com/VampireNoob/Wedding-Wish-List/assets/128150500/e8f0b5ca-935a-45d1-b5c0-419f02ee83d4" width="30"> JavaScript
 * Supabase
-* HTML & CSS
+* <img src="https://github.com/VampireNoob/Wedding-Wish-List/assets/128150500/d1885e0d-bc56-480b-b104-b181b8c82cbf" width="30"> HTML & CSS
 
 ## Contact
 GitHub: [VampireNoob](https://github.com/VampireNoob)
